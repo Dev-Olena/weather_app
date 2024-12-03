@@ -31,7 +31,6 @@ async function displayWeatherAndForecast(city) {
     try {
         const loader = createElement('p', ['loader'], 'завантаження...');
         weatherCard.replaceChildren(loader);
-        // weatherCard.textContent = 'завантаження...';
         // поточна погода
         const currentWeather = await fetchWeatherData('weather', city, API_KEY);
         console.log(currentWeather);
