@@ -261,6 +261,9 @@
 }
 
 @media screen and (max-width: 550px){
+    .main-content {
+        width: 75%;
+    }
     .weather-block {
         gap: 0.5rem;
     }
